@@ -11,7 +11,7 @@ while true
 do
 	echo "Enter number of files in current directory , followed by [ENTER]:"
 	read fc
-	echo "fc=$fc; amount=$amount"
+	#echo "fc=$fc; amount=$amount"
 	if [[ $fc -eq $amount ]] 
 	then
 		echo "Right Guess!!"
