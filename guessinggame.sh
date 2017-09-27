@@ -2,7 +2,7 @@
 
 function xfiles {
 amount=$(find . -maxdepth 1 -type f| wc -l)
-echo "function amount=$amount"
+#echo "function amount=$amount"
 }
 
 xfiles
